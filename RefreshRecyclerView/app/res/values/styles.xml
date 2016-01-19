@@ -1,0 +1,54 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<!-- 超大标题文本的样式 -->
+	<style name="text_font_large">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/text_c4</item>
+		<item name="android:textSize">@dimen/text_font_large</item>
+		<!--<item name="android:lineSpacingExtra">6sp</item>-->
+		<item name="android:textStyle">bold</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	<!-- 大标题文本的样式 -->
+	<style name="text_font_big">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/text_c4</item>
+		<item name="android:textSize">@dimen/text_font_big</item>
+		<!--<item name="android:lineSpacingExtra">6sp</item>-->
+	</style>
+	<!-- 副标题文本或正文文本的样式 -->
+	<style name="text_font_middle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/text_c5</item>
+		<item name="android:textSize">@dimen/text_font_middle</item>
+		<!--<item name="android:lineSpacingExtra">8sp</item>-->
+	</style>
+	<!-- 次文本的样式 -->
+	<style name="text_font_small">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/text_c6</item>
+		<item name="android:textSize">@dimen/text_font_small</item>
+		<!--<item name="android:lineSpacingExtra">8sp</item>-->
+	</style>
+	<!-- 小文本的样式 -->
+	<style name="text_font_little">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/text_c6</item>
+		<item name="android:textSize">@dimen/text_font_little</item>
+		<!--<item name="android:lineSpacingExtra">6sp</item>-->
+	</style>
+
+</resources>
